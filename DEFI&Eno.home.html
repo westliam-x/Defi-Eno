@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/afc6efae80.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+   
+</head>
+
+<section class="head">
+    <nav>
+        <a href="DEFI&Eno.home.html" class="title">D&E</a>
+        <div class="navlink" id="navlinks">
+        <i class="fas fa-times" onclick="hidemenu()" style="width: 5%;"></i>
+        <a href="DEFI&Eno.home.html">Home</a>
+        <a href="DEFI&Eno.course.html">Courses</a>
+        <a href="DEFI&Eno.registration.html">Registration</a>
+        <a href="DEFI&Eno.about.html">About</a>
+        <a href="DEFI&Eno.Contact.html">Contact-Us</a>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+    </nav>
+</section>
+<body style="background-color: rgb(72, 177, 224)">
+   <div class="intro">
+
+   </div>
+   
+   <div class="crypto">
+       <h1>What is a Crypto Currency?</h1>
+       <p>A Crypto Currency is a digital currency, which is an alternative form of payment created using enctryption algorithms</p>
+       <p>The use of Encryption technologies means that cryptocurrencies function both as a currency and as a virtal 
+           accounting system and to use cryptocurrencies you need a wallet.</p>
+   </div>
+   <div class="Defi">
+       <h1>What is DEFI?</h1>
+       <p>Decentralized Finance (DEFI) dates back to the year 2018 when a group of software developers 
+           and Entrepeneurs were trying to decide what to call their movement of new breed financial services that  would be automated,
+           built on blockchain, and caable of stripping our traditional banks
+       </p>
+       <p>
+        Three years later and DEFI is a  big business. A user with a crypto wallet can trade digital assets,
+         get loans, or take out insurance, among many things.
+        Some $90 billion of collateral is locked up in these services, and more than
+         10 million people have downloaded MetaMask, one of the most populr digital wallets used to open up access to these networks.
+       </p>
+   </div>
+   <div class="DE">
+       <h1>Why choose D&E?</h1>
+       <p>
+           The main aim or venturing into the world of Decentralized Finance is to understand and make money from the decentralized world,
+            and that is what D&E stands for. D&E is a DEFI training community designed to teach and gets it's students financially free. 
+       </p>
+       <p>
+        We at D&E would like to help in moving the world to a more Decentralized field and also help in preparing people to be mentally
+         and financially capable to handle the movement.
+       </p>
+   </div>
+   <div class="offer">
+       <h1>What does D&E have to offer?</h1>
+       <p>D&E is packed with a variety of different courses for you. You decide on which course you can keep up with they are affordable.
+           To know more about the courses we have to offer click on the button below</p><br><br>
+       <a href="DEFI&Eno.course.html" class="btn">Courses</a>
+   </div>
+   <h1 style="text-align: center;">Testimonials</h1>
+       <hr style="height: 3px;">
+   <div class="testemonials">
+       <div class="box">
+           <img src="image/Eno.jpg" alt="" srcset="" >
+           <h4>Student</h4>
+           <p>The beginners class was so much enlightening it was so worth I used part of the money made to pay for the V.I.P course</p>
+       </div>
+       <div class="box">
+           <img src="image/Eno.jpg" alt="" srcset="" >
+           <h4>Student</h4>
+           <p>The V.I.P course is more than a course it's a family, being together with people of the same goals and different ideas from you is so enlightening</p>
+       </div>
+       <div class="box">
+           <img src="image/Eno.jpg" alt="" srcset="">
+           <h4>Student</h4>
+           <p>The beginners class was so much enlightening it was so worth I used part of the money made to pay for the V.I.P course</p>
+        </div>
+    </div>
+    <div class="contact">
+        <h1>Contact-Us</h1>
+        <h2>Get in touch with us we are looking <br> forward to having you on our team</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe mollitia reprehenderit dolore atque fuga 
+            <br> rerum labore deserunt quia ad animi minus, repudiandae repellat impedit deleniti modi! 
+            <br> Tenetur nisi error asperiores.</p>
+        <i class="fab fa-twitter" onclick="showmenu()"><a href="http://twitter.com/Tianne_E"></a></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook-messenger"></i>
+        <i class="fab fa-whatsapp"><a href="https://wa.me/+234 703 604 5725"></a></i>
+    </div>
+</body>
+</html>
+
+
+
+<script>
+    function showmenu() {
+   document.getElementById("navlinks").style.width = "450px";
+ }
+ function hidemenu(){
+ document.getElementById("navlinks").style.width = "0";
+ }
+ 
+ </script>
+
+
+
+
+<style>
+     * {
+    padding: 0;
+    margin: 0;
+    }
+    head{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(4,9,30,0.7)),url();
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.title{
+    color: black;
+    font-size: 80px;
+    font-family: 'Festive', cursive;
+    text-decoration: none;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+    nav{
+    display: flex;
+    padding: 1% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlink{
+    flex: 1;
+    text-align: right;
+}
+.navlink a{
+    display: inline-block;
+    padding: 8px 30px;
+    position: relative;
+    
+}
+.navlink a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navlink a:hover{
+    color: black;
+    transition: all 1s ease;
+}
+
+p{
+    font-family: 'Cookie', cursive;
+    font-size: 18px;
+}
+.crypto{
+    padding: 100px 150px 100px 50px;
+    background-color: white;
+}
+.Defi{
+    text-align: right;
+    padding: 100px 50px 100px 150px;
+}
+.DE{
+    background-color: black;
+    color: white;
+    padding: 100px 150px 100px 50px;
+}
+.offer{
+    text-align: right;
+    padding: 100px 50px 100px 120px;
+    
+}
+.testemonials{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.testemonials h1{
+    text-align: center;
+}
+img{
+    margin: auto;
+    display: block;
+    float: none;
+    border-radius: 70%;
+    width: 30%;
+}
+.box h4{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+}
+.box{
+    flex-basis: 31%;
+    background: white;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 20px 12;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 3px solid black;
+}
+.box:hover{
+    box-shadow: 0 0 20px 0 rgba(36, 32, 32, 0.2);
+}
+.contact{
+    color: white;
+    background-color: black;
+    padding: 100px 150px 100px 50px;
+}
+.contact h1{
+    padding-bottom: 40px;
+}
+.contact .fab{
+    padding: 10px 10px;
+}
+
+
+
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px solid #333232;
+    background:rgb(93, 105, 133);
+    transition: 1s;
+}
+nav .fas{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:700px){
+  .navlink{
+      position: fixed;
+      background-color: rgba(72, 183, 235, 0.308);
+      height: 100%;
+      width: 0;
+      top: 0;
+      right: -200px;
+      overflow-x: hidden;
+      text-align: left;
+      z-index: 1;
+      transition: 1.5s;
+  }
+  .navlink a{
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 15px;
+      color: black;
+      display: block;
+      transition: 0.3s;
+  }
+  nav .fas{
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+  }
+  .navlink a:hover{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url();   
+  }
+  .navlink .show{
+      position: absolute;
+      top: 0;
+      right: 200px;
+      font-size: 36px;
+      margin-left: 50px;
+  }
+    .crypto{
+   width: 80%;
+}
+.Defi{
+    padding: 100px 150px 100px 50px;
+    text-align: left;
+    width: 80%;
+}
+.DE{
+    width: 80%;
+}
+.offer{
+    padding: 100px 150px 100px 50px;
+    text-align: left;
+    width: 80%;
+    
+}
+.testemonials{
+    width: 80%;
+    flex-direction: column;
+    padding: 100px 150px 100px 40px;
+}
+
+  }
+  
+  @media screen and (max-height: 450px){
+      .navlink{padding-top: 15px;}
+      .navlink a{font-size: 18px;}
+      
+  }
+</style>
+
+
+
